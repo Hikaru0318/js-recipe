@@ -33,7 +33,9 @@ const createCard = function(text) {
     // カードを削除する
     card.remove()
   }
+  //削除ボタンをカードの中に追加する
   card.append(deleteButton)
 
+  //カードをコンテナの仲に追加する
   return card
 }
