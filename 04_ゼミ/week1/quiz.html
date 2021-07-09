@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 問題文 -->
+    <div>好きなアニメはなんでしょう？</div>
+    <!-- 選択肢を作成 -->
+    <button id="choice1">ヒロアカ</button>
+    <button id="choice2">鬼滅の刃</button>
+    <button id="choice3">ワンピース</button>
+    ​
+    <script>
+      // 要素取得する
+      const BUTTON1 = document.getElementById("choice1")
+      const BUTTON2 = document.getElementById("choice2")
+      const BUTTON3 = document.getElementById("choice3")
+      // ボタンをクリックした時にコンソールで表示させたい
+      BUTTON1.onclick = function() {
+        // 何してほしいか処理を価格
+        console.log("正解！！")
+      }
+      BUTTON2.onclick = function() {
+        // 何してほしいか処理を価格
+        console.log("不正解")
+      }
+      BUTTON3.onclick = function() {
+        // 何してほしいか処理を価格
+        console.log("不正解！！")
+      }
+    </script>
+  </body>
+</html>
+
+const number = 24; for (let n = 1; n <= number; n++) { if (n % 15 === 0) {
+console.log(n + "FizzBuzz"); } else if (n % 3 === 0) { console.log(n + "Fizz");
+} else if (n % 5 === 0) { console.log(n + "Buzz"); } else { console.log(n); } }
